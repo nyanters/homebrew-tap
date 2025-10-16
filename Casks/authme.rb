@@ -1,4 +1,4 @@
-cask "duckstation" do
+cask "authme" do
   version "6.3.1"
   sha256 "264dbcf5f970556ef3045e4e73302984911261436cf9e802265df145963317f9"
 
