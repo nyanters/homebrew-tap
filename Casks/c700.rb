@@ -1,6 +1,6 @@
 cask "c700" do
   version "ver20211031"
-  sha256 "47bc1f5d38db3a65ba4b37fb9949659b26728ec0e23c6facc749c6647e4c8696"
+  sha256 "17528e332d2a1b9ac924f0884686b55ad02409a5e3d1d4d606f47ef86550c142"
 
   url "https://github.com/osoumen/C700/releases/download/ver20211031/C700_mac_20211101.zip"
   name "C700"
@@ -10,4 +10,5 @@ cask "c700" do
   container type: :zip
 
   audio_unit_plugin "C700.component"
+  vst3_plugin "C700.vst3"
 end
