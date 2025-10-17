@@ -9,7 +9,7 @@ cask "vulkansdk" do
 
   container type: :zip
 
-  app "vulkansdk-macOS-#{version}.app"
+  installer manual: "vulkansdk-macOS-#{version}.app"
 
   zap trash: [
   ]
