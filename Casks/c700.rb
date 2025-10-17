@@ -1,6 +1,6 @@
 cask "c700" do
   version "ver20211031"
-  sha256 "ee056920d6a37d14432d8050310050b4110ba2cbd13a24334c46b6cd96ed2b8e"
+  sha256 "47bc1f5d38db3a65ba4b37fb9949659b26728ec0e23c6facc749c6647e4c8696"
 
   url "https://github.com/osoumen/C700/releases/download/ver20211031/C700_mac_20211101.zip"
   name "C700"
