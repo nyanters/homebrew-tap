@@ -9,6 +9,6 @@ cask "c700" do
 
   container type: :zip
 
-  audio_unit_plugin "C700.component"
-  vst3_plugin "C700.vst3"
+  audio_unit_plugin "C700/C700.component"
+  vst3_plugin "C700/C700.vst3"
 end
