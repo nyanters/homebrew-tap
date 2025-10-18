@@ -8,8 +8,11 @@ cask "vulkansdk" do
   homepage "https://vulkan.lunarg.com/sdk/home"
 
   container type: :zip
-
-  installer manual: "vulkansdk-macOS-#{version}.app"
+  installer script: {
+    executable: "vulkansdk.sh",
+    args: ["vulkansdk-macOS-#{version}.app"],
+    sudo: true,
+  }
 
   zap trash: [
   ]
