@@ -11,6 +11,10 @@ cask "emusc" do
 
   app "EmuSC.app"
 
+  caveats do
+    requires_rosetta
+  end
+
   zap trash: [
   ]
 end

@@ -11,6 +11,10 @@ cask "pcsx2" do
   rename "PCSX2-v#{version}.app" "PCSX2.app"
   app "PCSX2.app"
 
+  caveats do
+    requires_rosetta
+  end
+
   zap trash: [
     "~/Library/Application Support/PCSX2",
     "~/Library/Preferences/net.pcsx2.pcsx2.plist",
