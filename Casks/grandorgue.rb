@@ -17,7 +17,7 @@ cask "grandorgue" do
 
   container type: :dmg
 
-  app: "GrandOrgue.app"
+  app "GrandOrgue.app"
 
   zap trash: [
     "~/Library/Preferences/GrandOrgueConfig",
