@@ -7,7 +7,6 @@ cask "dexed" do
   desc "DX7 FM multi plaform/multi format plugin"
   homepage "https://github.com/asb2m10/dexed"
 
-  container nested: "dexed-#{version}-macos.dmg"
   container type: :zip
 
   pkg "dexed-macOS-#{version}.pkg"
