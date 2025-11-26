@@ -8,15 +8,17 @@ cask "pcsx2" do
   homepage "https://github.com/PCSX2/pcsx2"
 
   container type: :tar
-  rename "PCSX2-v#{version}.app" "PCSX2.app"
-  app "PCSX2.app"
 
-  caveats do
-    requires_rosetta
-  end
+  rename "PCSX2-v#{version}.app" + "PCSX2.app"
+
+  app "PCSX2.app"
 
   zap trash: [
     "~/Library/Application Support/PCSX2",
     "~/Library/Preferences/net.pcsx2.pcsx2.plist",
   ]
+
+  caveats do
+    requires_rosetta
+  end
 end

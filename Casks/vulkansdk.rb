@@ -4,12 +4,12 @@ cask "vulkansdk" do
 
   url "https://sdk.lunarg.com/sdk/download/#{version}/mac/vulkansdk-macos-#{version}.zip"
   name "Vulkan SDK"
-  desc "cross-platform graphics and compute API"
+  desc "Cross-platform graphics and compute API"
   homepage "https://vulkan.lunarg.com/sdk/home"
 
   container type: :zip
+
   installer manual: "vulkansdk-macOS-#{version}.app"
 
-  zap trash: [
-  ]
+  zap trash: []
 end

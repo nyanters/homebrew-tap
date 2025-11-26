@@ -4,7 +4,7 @@ cask "8bitdo-ps3-pairing-tool" do
 
   url "https://download.8bitdo.com/Tools/Receiver/8BitDo_PS3_Tool_MacOS_V#{version}.zip"
   name "PS3 pairing tool"
-  desc "Connect PS3 to 8BitDo retro receivers."
+  desc "Connect PS3 to 8BitDo retro receivers"
   homepage "https://support.8bitdo.com/receiver-usb-adapter-tools-for-ps3.html"
 
   container type: :zip
