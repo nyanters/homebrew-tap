@@ -1,6 +1,6 @@
 cask "cluster" do
   version "latest"
-  sha256 "d70d23b108882bd213c6030786636c9d55733ecbf06cf3bac8be0edf7a8b61e8"
+  sha256 "d7147ddd2398afa8c6d6331dce92e9f96bbb2a3d6d4de007f29ec7982813e4c0"
 
   url "https://update.cluster.mu/cluster.pkg"
   name "cluster"

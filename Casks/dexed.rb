@@ -1,6 +1,6 @@
 cask "dexed" do
-  version "0.9.8"
-  sha256 "3be32f98e56b40d9555a4069368c7307b8bae3368459bb087cf6195ae7538704"
+  version "0.9.9"
+  sha256 "d747015bcd6d8e0714e87ca8a679ff4861a4c27c73339051ecfa52d1928e8ff8"
 
   url "https://github.com/asb2m10/dexed/releases/download/v#{version}/dexed-#{version}-macos.zip"
   name "Dexed"

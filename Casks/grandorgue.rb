@@ -1,12 +1,12 @@
 cask "grandorgue" do
   arch arm: "arm64", intel: "x86_64"  
 
-  version "3.16.1-1"
+  version "3.16.2-1"
   on_arm do
-    sha256 "671271d0e2c78c63704ae7265e1fe0c890d79fc1eb180a5c8cb5ad4e6826dd55"
+    sha256 "7dc353a586faa2938226f48a6fcd38142bf72f0f2065feafc479afaf78fab8c3"
   end
   on_intel do
-    sha256 "5081cf637a27def9ddfed82d4385f47ac22270338744aeaa32aed05ff6aa3bc0"
+    sha256 "30e9ea56e8df7ea607a829007dde9258307d9f058f4d7fca2ce057c3e85cb1d0"
   end
 
   url "https://github.com/GrandOrgue/grandorgue/releases/download/#{version}/grandorgue-#{version}.macOS.#{arch}.dmg"
