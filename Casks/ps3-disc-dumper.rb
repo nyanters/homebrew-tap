@@ -1,4 +1,4 @@
-cask "ps3-disk-dumper" do
+cask "ps3-disc-dumper" do
   version "4.4.0"
   sha256 "3e6fabd3fe4195162bb1485b093c9b1f310ab14dd2c8208ffb1cf5a59f4dbbf5"
 
