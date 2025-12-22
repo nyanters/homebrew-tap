@@ -9,7 +9,7 @@ cask "magical-8bit-plug" do
 
   container type: :zip
 
-  audio_unit_plugin "Component/Magical8bitPlug2.component"
+  audio_unit_plugin "Components/Magical8bitPlug2.component"
   vst_plugin "VST/Magical8bitPlug2.vst"
   vst3_plugin "VST3/Magical8bitPlug2.vst3"
 end
